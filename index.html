@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <link rel="icon" href="assests/akanfavcon.png">
     <meta charset="UTF-8">
@@ -9,11 +10,13 @@
     <!-- font style -->
 
     <!-- bootstrap css -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
 
     <!-- custom css -->
     <link rel="stylesheet" href="styles.css">
 </head>
+
 <body>
     <div class="container">
         <div class="row">
@@ -24,44 +27,64 @@
                         <h3>Akan Naming Brief History</h3>
                         <hr>
                         <p>Read more details about Akan Culture by just a click</p>
-                       <!-- button for modal -->
-                        <button type="button" class="btn btn-secondary" data-bs-toggle="modal" data-bs-target="#exampleModal">Explore More</button>
+                        <!-- button for modal -->
+                        <button type="button" class="btn btn-secondary" data-bs-toggle="modal"
+                            data-bs-target="#exampleModal">Explore More</button>
                         <!-- end  -->
-                         <!--  modal here-->
-                         <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-                             <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
-                                 <div class="modal-content">
-                                     <div class="modal-header">
-                                         <h5 class="modal-title" id="exampleModalLable">Akan Cluture History</h5>
-                                         <button class="btn-close" type="button" data-bs-dismiss="modal" aria-label="Close"></button> 
-                                     </div>
-                                     <div class="modal-body">
-                                         <img src="assets/Akangenesis.jpg" alt="Map" style="height: 500px; width: 450px;">
-                                        <p class="card-text text-dark">The Akan people are ethic group of West Africa,The largest group is found in both Ghana and the Ivory Coast and the one of the biggest in the region.The<strong>greater Akan people</strong>(ethick group) speak <em>Kwa language.</em> The people who became known as the Akan migrated from the Sahel to the forest region of coastal west Africa between the 11th to 13th Century.
+                        <!--  modal here-->
+                        <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+                            aria-hidden="true">
+                            <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable modal-large">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h5 class="modal-title" id="exampleModalLable">Akan Cluture History</h5>
+                                        <button class="btn-close" type="button" data-bs-dismiss="modal"
+                                            aria-label="Close"></button>
+                                    </div>
+                                    <div class="modal-body">
+                                        <img src="assets/Akangenesis.jpg" alt="Map"
+                                            style="height: 500px; width: 450px;">
+                                        <p class="card-text text-dark">The Akan people are ethic group of West
+                                            Africa,The largest group is found in both Ghana and the Ivory Coast and the
+                                            one of the biggest in the region.The<strong>greater Akan
+                                                people</strong>(ethick group) speak <em>Kwa language.</em> The people
+                                            who became known as the Akan migrated from the Sahel to the forest region of
+                                            coastal west Africa between the 11th to 13th Century.
                                         </p>
                                         <p class="card-text text-dark">
-                                            he kingdom of Bonoman was established as early as the 11th century as a trading state between the Akan and their neighbors, specially those from Djenne, Timbuktu, Bornu among others.  
+                                            he kingdom of Bonoman was established as early as the 11th century as a
+                                            trading state between the Akan and their neighbors, specially those from
+                                            Djenne, Timbuktu, Bornu among others.
                                         </p>
                                         <a href="https://www.slideshare.net/keyur150/akan-final">Read more Here</a>
-                                     </div>
-                                     <div class="modal-footer">
-                                         <button class="btn btn-primary" type="button" data-bs-dismiss="modal">Close</button>
-                                        </div>
-                                 </div>
-                             </div>
-                         </div>
-                         <!-- end of modal -->
+                                    </div>
+                                    <div class="modal-footer">
+                                        <button class="btn btn-primary" type="button"
+                                            data-bs-dismiss="modal">Close</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- end of modal -->
                     </div>
                 </div>
             </div>
             <div class="col-lg-7 col-md-7 bg-dark form">
                 <img src="assets/akannames.png" alt="">
                 <hr>
-                <form action="#">
-                    <input type="text" name="date" id="date" placeholder="Enter  date of Birth" class="form-control"><br><br>
-                    <input type="text" name="month" id="month" placeholder="Enter Month of Birth" class="form-control"><br><br>
-                    <input type="text" name="year" id="year" placeholder="Enter the Year of Birth" class="form-control"><br><br>
-                    <button class="btn form-control btn-outline-danger btn-md text-light">Click to check</button>
+                <form action="#" name="form">
+                    <input type="text" name="date" id="date" placeholder="Enter  date of Birth"
+                        class="form-control"><br><br>
+                    <input type="text" name="month" id="month" placeholder="Enter Month of Birth"
+                        class="form-control"><br><br>
+                    <input type="text" name="year" id="year" placeholder="Enter the Year of Birth"
+                        class="form-control"><br><br>
+                        <label for="radio" class="text-warning radio">Male:</label>
+                    <input type="radio" name="gender" id="male" class="radio mb-3">
+                        <label for="radio" class="text-warning radio">Female:</label>
+                    <input type="radio" name="gender" id="female">
+                    <button class="btn form-control btn-outline-danger btn-md text-light" onclick="myValidation()">Click
+                        to check</button>
                 </form>
             </div>
         </div>
@@ -69,6 +92,9 @@
     <!-- javascript -->
     <script src="main.js"></script>
     <!-- bootstrap js -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
 </body>
+
 </html>
