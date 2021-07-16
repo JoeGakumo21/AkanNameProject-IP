@@ -11,9 +11,10 @@ body{
 
 .form{
     margin-top:10rem;
-    background:linear-gradient(to right,rgba(152, 223, 165, 0.2),rgba(197, 112, 170, 0.1));
+    background:linear-gradient(to right,rgba(89, 206, 118, 0.2),rgba(201, 53, 152, 0.1));
     border-radius: 10px;
     color: #fff;
+   
 
 }
 form{
@@ -31,8 +32,9 @@ padding: 10px;
 
 }
 hr{
-    color: rgb(11, 12, 12);
+    color: rgb(121, 11, 62);
     font-weight: 900;
+    outline: gold;
 }
 img{
     padding: 5px;
@@ -42,4 +44,13 @@ img{
 }
 .card-img-top{
 height: 500px;
+}
+.radio{
+    font-size: 1.8rem;
+    padding:30px;
+}
+input[type=radio] {
+    border: 0px;
+    width: 20px;
+    height: 20px;
 }
