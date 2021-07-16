@@ -6,6 +6,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Akan Names Website</title>
+    <!-- font style -->
+
     <!-- bootstrap css -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
 
@@ -13,8 +15,56 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-5 col-md-6">
+                <div class="card">
+                    <img src="assets/africanculture.jpg" alt="African kid dancing image" class="card-img-top">
+                    <div class="card-body">
+                        <h3>Akan Naming Brief History</h3>
+                        <hr>
+                        <p>Read more details about Akan Culture by just a click</p>
+                       <!-- button for modal -->
+                        <button type="button" class="btn btn-secondary" data-bs-toggle="modal" data-bs-target="#exampleModal">Explore More</button>
+                        <!-- end  -->
+                         <!--  modal here-->
+                         <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                             <div class="modal-dialog">
+                                 <div class="modal-content">
+                                     <div class="modal-header">
+                                         <h5 class="modal-title" id="exampleModalLable">Akan Cluture History</h5>
+                                         <button class="btn-close" type="button" data-bs-dismiss="modal" aria-label="Close"></button> 
+                                     </div>
+                                     <div class="modal-body">
+                                        <p class="card-text text-dark">The Akan people are ethic group of West Africaand the 
+                                            largest group is found in Ghana and the Ivory fa-y-combinator-square
+                                        </p>
+                                     </div>
+                                     <div class="modal-footer">
+                                         <button class="btn btn-primary" type="button" data-bs-dismiss="modal">Close</button>
+                                        </div>
+                                 </div>
+                             </div>
+                         </div>
+                         <!-- end of modal -->
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-7 col-md-7 bg-dark form">
+                <img src="assets/akannames.png" alt="">
+                <hr>
+                <form action="#">
+                    <input type="text" name="date" id="date" placeholder="Enter a number of Birth" class="form-control"><br><br>
+                    <input type="text" name="month" id="month" placeholder="Enter Month of B irth" class="form-control"><br><br>
+                    <input type="text" name="year" id="year" placeholder="Enter Year of Birth" class="form-control"><br><br>
+                    <button class="btn form-control btn-outline-dark btn-md">Click to check</button>
+                </form>
+            </div>
+        </div>
+    </div>
     <!-- javascript -->
     <script src="main.js"></script>
+    <!-- bootstrap js -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
 </body>
 </html>
