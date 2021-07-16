@@ -1,0 +1,45 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+     background-image: url("assets/Akangenesis.jpg"); 
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.form{
+    margin-top:10rem;
+    background:linear-gradient(to right,rgba(152, 223, 165, 0.2),rgba(197, 112, 170, 0.1));
+    border-radius: 10px;
+    color: #fff;
+
+}
+form{
+    height: 400px;
+    padding: auto;
+    
+}
+h2{
+font-family: 'Roboto', sans-serif;
+font-family: 'Romanesco', cursive;
+font-size: 3rem;
+color: #444;
+font-weight: 600;
+padding: 10px;
+
+}
+hr{
+    color: rgb(11, 12, 12);
+    font-weight: 900;
+}
+img{
+    padding: 5px;
+}
+.card{
+    margin-top: 10rem;
+}
+.card-img-top{
+height: 500px;
+}
