@@ -72,20 +72,25 @@
             <div class="col-lg-7 col-md-7 bg-dark form">
                 <img src="assets/akannames.png" alt="">
                 <hr>
-                <form action="#" name="form">
-                    <input type="text" name="date" id="date" placeholder="Enter  date of Birth"
+                <form onsubmit="return false" name="form">
+                    <input type="number" name="date" id="date" max="31" min="1" placeholder="Enter  date of Birth" required
                         class="form-control"><br><br>
-                    <input type="text" name="month" id="month" placeholder="Enter Month of Birth"
-                        class="form-control"><br><br>
-                    <input type="text" name="year" id="year" placeholder="Enter the Year of Birth"
-                        class="form-control"><br><br>
+                    <input type="number" name="month" id="month" max="12" min="1" placeholder="Enter Month of Birth"
+                        class="form-control" required><br><br>
+                    <input type="number" name="year" id="year" max-length="4" max="2022" min="1900" placeholder="Enter the Year of Birth"
+                        class="form-control" required><br><br>
                         <label for="radio" class="text-warning radio" >Male:</label>
-                    <input type="radio" name="gender" id="gender" class="radio mb-3" onclick="akanNames()">
+                    <!-- <input type="radio" value="male" name="gender" id="genderMale" required> -->
+                    <input type="radio" value="male" name="gender" id="genderMale" required>
                         <label for="radio" class="text-warning radio">Female:</label>
-                    <input type="radio" name="gender" id="gender" onclick="akanNames()">
-                    <button class="btn form-control btn-outline-danger btn-md text-light" onclick="myValidation()">Click
+                    <input type="radio" value="female" name="gender" id="genderFemale" required>
+                    <button class="btn form-control btn-outline-danger btn-md text-light" onclick="akanNames()" type="submit">Click
                         to check</button>
                 </form>
+                <div>
+                    <p class="display"></p>
+                    <p class="text"></p>
+                </div>
             </div>
         </div>
     </div>
