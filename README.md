@@ -13,7 +13,7 @@
  * Javascript
 
  # Active link to Portfolio
- <a href=" ">Akan Name generating website</a>
+ <a href="https://joegakumo21.github.io/AkanNameProject-IP/">Akan Name website Application</a>
 
  # Known Bugs
   * so far  has no errors
