@@ -1,7 +1,7 @@
 # Akan Name website Application
 ## Created and designed by <span style="color:red">Joseph Gakumo Munyui</span> on 15th July 2021
 # Description
-## The Akan name website generation is an application that enables the user to know his or her name of birth if he/she was a member of Akan community . The website allows the user to type in date of birth, the month of birth and the year then it uses this details to determine when that iidividual was born and which exact date
+#### The Akan name website generation is an application that enables the user to know his or her name of birth if he/she was a member of Akan community . The website allows the user to type in date of birth, the month of birth and the year then it uses this details to determine when that iidividual was born and which exact date
 
 # Setup requirements
 * Chrome Browser
