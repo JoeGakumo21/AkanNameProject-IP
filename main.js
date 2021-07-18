@@ -43,6 +43,7 @@ function genderAll() {
         return false;
     }else if(genderMale.checked){
         genderCheck=genderMale.value;
+        return genderCheck;
     }else if(genderFemale.checked){
         genderCheck=genderFemale.value;
         return genderCheck;
